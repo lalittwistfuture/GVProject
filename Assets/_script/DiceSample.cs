@@ -1,0 +1,13 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+namespace Ludo
+{
+    public class DiceSample : MonoBehaviour
+    {
+
+        // Use this for initialization
+        [HideInInspector]
+        public int index;
+    }
+}

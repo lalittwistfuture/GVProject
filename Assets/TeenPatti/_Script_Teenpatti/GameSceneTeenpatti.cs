@@ -51,6 +51,7 @@ public class GameSceneTeenpatti : MonoBehaviour
 
     void Start()
     {
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
         addCoinPanel.SetActive(false);
         infoPanel.SetActive(false);
         leftPanel.SetActive(false);
